@@ -1,0 +1,15 @@
+# Ignore Virtual Environment
+venv/
+ENV/
+env/
+
+# Ignore local LlamaIndex vector storage
+storage/
+
+# Ignore Python bytecode & cache
+__pycache__/
+*.pyc
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
